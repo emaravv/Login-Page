@@ -1,0 +1,87 @@
+/* Estilos para o corpo e o contêiner */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%; /* Largura máxima */
+    max-width: 400px; /* Define a largura máxima para evitar que fique muito pequeno */
+    text-align: center;
+    margin: 10px; /* Adicione alguma margem para afastar do lado da tela */
+}
+
+/* Estilos para o título e o formulário */
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para rótulos e campos de entrada */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para o botão de cadastrar */
+input[type="submit"], input[type="button"] {
+    background: rgb(33,37,41);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background: rgba(33,37,41,0.5);
+}
+
+/* Estilos para o link de "Faça login" */
+p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a bolinha verde */
+#login {
+    background: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Use 50% para torná-lo uma bolinha perfeita */
+    margin: 10px auto; /* Centralizar horizontalmente */
+}
