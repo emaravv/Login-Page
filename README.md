@@ -13,4 +13,3 @@ A página de login apresenta campos de entrada para nome de usuário e senha, ju
 O design responsivo da página permite que a experiência seja consistente em diferentes dispositivos, adaptando-se de forma fluida a telas de tamanhos variados, desde desktops até smartphones.
 
 Essa descrição ressalta os aspectos principais da página de login, destacando a utilização de HTML, CSS e JavaScript para criar uma experiência de login interativa e amigável.
-<input type="button">teste</input>
